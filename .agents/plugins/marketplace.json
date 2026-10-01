@@ -1,14 +1,14 @@
 {
-  "name": "ponytail",
+  "name": "ponytail-jan",
   "interface": {
-    "displayName": "Ponytail"
+    "displayName": "ponytail-jan"
   },
   "plugins": [
     {
-      "name": "ponytail",
+      "name": "ponytail-jan",
       "source": {
         "source": "url",
-        "url": "https://github.com/DietrichGebert/ponytail.git",
+        "url": "https://github.com/jan-tuziak/ponytail.git",
         "ref": "main"
       },
       "policy": {

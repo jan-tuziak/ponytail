@@ -1,32 +1,32 @@
 {
-  "name": "ponytail",
+  "name": "ponytail-jan",
   "version": "4.10.0",
   "description": "Lazy senior dev mode. Forces the simplest, shortest solution that actually works: YAGNI, stdlib first, no unrequested abstractions.",
   "author": {
-    "name": "Dietrich Gebert",
-    "url": "https://github.com/DietrichGebert"
+    "name": "Jan Tuziak",
+    "url": "https://github.com/jan-tuziak"
   },
-  "homepage": "https://github.com/DietrichGebert/ponytail",
-  "repository": "https://github.com/DietrichGebert/ponytail",
+  "homepage": "https://github.com/jan-tuziak/ponytail",
+  "repository": "https://github.com/jan-tuziak/ponytail",
   "license": "MIT",
   "keywords": ["yagni", "minimalism", "code-review", "productivity"],
   "skills": "./skills/",
   "hooks": "./hooks/claude-codex-hooks.json",
   "interface": {
-    "displayName": "Ponytail",
+    "displayName": "ponytail-jan",
     "shortDescription": "Lazy senior developer mode",
     "longDescription": "Prefer YAGNI, the standard library, native platform features, and the smallest correct implementation.",
-    "developerName": "Dietrich Gebert",
+    "developerName": "Jan Tuziak",
     "category": "Productivity",
     "capabilities": ["Instructions", "Lifecycle hooks"],
-    "websiteURL": "https://github.com/DietrichGebert/ponytail",
+    "websiteURL": "https://github.com/jan-tuziak/ponytail",
     "defaultPrompt": [
       "Use Ponytail mode for this task.",
       "Review this diff for over-engineering.",
       "Find the smallest correct implementation."
     ],
-    "brandColor": "#111111",
-    "composerIcon": "./assets/logo.png",
-    "logo": "./assets/logo.png"
+    "brandColor": "#0847D9",
+    "composerIcon": "./assets/logo-jan.png",
+    "logo": "./assets/logo-jan.png"
   }
 }

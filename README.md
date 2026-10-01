@@ -142,8 +142,8 @@ Same steps in the Claude Code Desktop app's Code tab: type the two `/plugin` com
 ### Codex
 
 ```bash
-codex plugin marketplace add DietrichGebert/ponytail
-codex plugin add ponytail@ponytail
+codex plugin marketplace add jan-tuziak/ponytail
+codex plugin add ponytail-jan@ponytail-jan
 ```
 
 Run `codex` and open `/hooks`, review and trust its two lifecycle hooks, and start a new thread.
@@ -317,7 +317,7 @@ Which files map to which agent: [Agent portability](docs/agent-portability.md).
 | Host | Command |
 |------|---------|
 | Claude Code | `/plugin remove ponytail` |
-| Codex | `codex plugin remove ponytail` |
+| Codex | `codex plugin remove ponytail-jan@ponytail-jan` |
 | Devin CLI | `devin plugins remove ponytail` |
 | Grok Build | `grok plugin uninstall ponytail` |
 | Pi agent | `pi uninstall ponytail` |
