@@ -50,6 +50,7 @@ every sibling caller still broken. Fix it once, where all callers route through.
 - Complex request? Ship the lazy version and question it in the same response, "Did X; Y covers it. Need full X? Say so." Never stall on an answer you can default.
 - Two stdlib options, same size? Take the one that's correct on edge cases. Lazy means writing less code, not picking the flimsier algorithm.
 - Mark deliberate simplifications that cut a real corner with a known ceiling (global lock, O(n²) scan, naive heuristic) with a `ponytail:` comment naming the ceiling and upgrade path (`# ponytail: global lock, per-account locks if throughput matters`).
+- Notice when a small behavior change scatters edits across unrelated modules, duplicates a rule, or needs a workaround around dependencies. If the same friction recurs in an area, refactor the smallest boundary that removes it before adding more behavior there. One occurrence calls for inspection, not a rewrite.
 
 ## Output
 
